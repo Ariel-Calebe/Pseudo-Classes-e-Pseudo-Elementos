@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.hover:hover {
+    background-color: blue;
+}
+
+.active:active {
+    background-color: yellow;
+}
+
+.visited:visited {
+    color: purple;
+}
+
+.focus:focus {
+    outline: 3px solid;
+}
+
+.container p:first-child{
+    font-size: 30px;
+}
+
+.container p:nth-child(2){
+    font-size: 15px;
+}
+
+.container p:last-child{
+    font-size: 5px;
+}
+
+.empty:empty {
+    border: dashed red;
+}
+
+input:disabled {
+    opacity: 0.5;
+}
+
+input:checked + label {
+    text-decoration: line-through;
+}
+
+.before::before {
+    content: "Antes - ";
+}
+
+.after::after {
+    content: " - Depois";
+}
+
+.first-letter::first-letter {
+    font-size: 2em;
+    color: blue;
+}
+
+.first-line::first-line {
+    background-color: yellow;
+}
+
+.selection::selection {
+    background-color: lightblue;
+    color: white;
+}
+
+.placeholder::placeholder {
+    color: rgb(255, 79, 108);
+    font-style: italic;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes e Pseudo Elementos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Pseudo Classes</h2>
+
+        <div class="box hover">Passe o mouse aqui</div>
+        <div class="box active">Clique e segure aqui</div>
+        <a href="#" class="visited">Link visitado</a>
+        <input type="text" class="focus" placeholder="Foco aqui">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <div class="box empty"></div>
+        <input type="text" disabled value="Desabilitado">
+        <br>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">Marque para riscar</label>
+
+        <h2>Pseudo Elementos</h2>
+
+        <div class="box before">Elemento com ::before</div>
+        <div class="box after">Elemento com ::after</div>
+        <p class="first-letter">Primeira letra em destaque.</p>
+        <p class="first-line">Primeira linha com fundo amarelo, lorem ipsum dolor sit amet.</p>
+        <p>Selecione este texto para ver o estilo de <span class="selection">seleção</span>.</p>
+        <input type="text" class="placeholder" placeholder="Digite algo aqui">
+    </div>
+</body>
+</html>
